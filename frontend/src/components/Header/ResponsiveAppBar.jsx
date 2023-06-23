@@ -55,7 +55,7 @@ function ResponsiveAppBar({ loggedIn, getLoggedIn, isAdmin }) {
           link: "/",
         },
         {
-          label: "Menus",
+          label: "Categories",
           link: "/menus",
         },
         {
