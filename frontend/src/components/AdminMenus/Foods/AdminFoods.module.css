@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  height: 90%;
+}
+
+.select {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.links a {
+  all: unset;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.addFood {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.addFood form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.addFood form button {
+  width: 100%;
+}
+
+.messageContainer {
+  height: 10%;
+  padding: 20px;
+}
+
+.editFood {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  gap: 20px;
+}
+
+.editFood form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.editFood form button {
+  width: 100%;
+}
+
+.deleteFood {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  gap: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  color: rgb(0, 135, 219);
+  padding: 20px;
+}

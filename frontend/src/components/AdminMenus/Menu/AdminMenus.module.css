@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  height: 90%;
+}
+
+.select {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.links a {
+  all: unset;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.addMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.addMenu form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.messageContainer {
+  height: 10%;
+  padding: 20px;
+}
+
+.editMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  gap: 20px;
+}
+
+.editMenu form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.deleteMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  gap: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  color: rgb(0, 135, 219);
+  padding: 20px;
+}
