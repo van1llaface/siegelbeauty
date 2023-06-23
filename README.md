@@ -1,3 +1,5 @@
+# siegelbeauty
+
 1st step: clone the repo  
 2nd step: npm install  
 3rd step: npm run start:both  
