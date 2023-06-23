@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const app = require("./app");
 
 const mongoURI =
-  "mongodb+srv://arnoldas:student@arnoldascluster.lc6rosf.mongodb.net/foodApp?retryWrites=true&w=majority";
+  "mongodb+srv://arnoldas:student@arnoldascluster.lc6rosf.mongodb.net/SiegelBeautyf?retryWrites=true&w=majority";
 
 mongoose.connect(mongoURI).then(console.log("DB connection established."));
 
